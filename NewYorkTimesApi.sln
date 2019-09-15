@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.645
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewYorkTimesApi", "NewYorkTimesApi\NewYorkTimesApi.csproj", "{C3A69479-4AEC-42A1-9596-91EC76E678E4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewYorkTimesTests", "NewYorkTimesTests\NewYorkTimesTests.csproj", "{94107AB1-1FD3-45E3-86D7-4B9DA7F4A7DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{F0677F46-7D94-446F-8C50-D197D8CCA952}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{F5286D52-C4FC-47DA-B307-7775449701FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{ED3DC73E-0846-46A9-BDCD-295DE466552B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{8315FA25-576B-4C99-B9B1-28F3FFB90723}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewYorkTimesApplication", "NewYorkTimesApplication\NewYorkTimesApplication.csproj", "{D9383D90-7848-4327-96C3-36E3B5F1813C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewYorkTimesDomain", "NewYorkTimesDomain\NewYorkTimesDomain.csproj", "{3FF849ED-56C2-463D-8491-0E4F83BF7CCA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3A69479-4AEC-42A1-9596-91EC76E678E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3A69479-4AEC-42A1-9596-91EC76E678E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3A69479-4AEC-42A1-9596-91EC76E678E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3A69479-4AEC-42A1-9596-91EC76E678E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94107AB1-1FD3-45E3-86D7-4B9DA7F4A7DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94107AB1-1FD3-45E3-86D7-4B9DA7F4A7DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94107AB1-1FD3-45E3-86D7-4B9DA7F4A7DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94107AB1-1FD3-45E3-86D7-4B9DA7F4A7DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9383D90-7848-4327-96C3-36E3B5F1813C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9383D90-7848-4327-96C3-36E3B5F1813C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9383D90-7848-4327-96C3-36E3B5F1813C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9383D90-7848-4327-96C3-36E3B5F1813C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FF849ED-56C2-463D-8491-0E4F83BF7CCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FF849ED-56C2-463D-8491-0E4F83BF7CCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FF849ED-56C2-463D-8491-0E4F83BF7CCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FF849ED-56C2-463D-8491-0E4F83BF7CCA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C3A69479-4AEC-42A1-9596-91EC76E678E4} = {F5286D52-C4FC-47DA-B307-7775449701FD}
+		{94107AB1-1FD3-45E3-86D7-4B9DA7F4A7DC} = {ED3DC73E-0846-46A9-BDCD-295DE466552B}
+		{F0677F46-7D94-446F-8C50-D197D8CCA952} = {8315FA25-576B-4C99-B9B1-28F3FFB90723}
+		{F5286D52-C4FC-47DA-B307-7775449701FD} = {8315FA25-576B-4C99-B9B1-28F3FFB90723}
+		{D9383D90-7848-4327-96C3-36E3B5F1813C} = {F0677F46-7D94-446F-8C50-D197D8CCA952}
+		{3FF849ED-56C2-463D-8491-0E4F83BF7CCA} = {F0677F46-7D94-446F-8C50-D197D8CCA952}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2F42682-762F-4D1F-BF7F-D3377E025EB7}
+	EndGlobalSection
+EndGlobal
